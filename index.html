@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЧАЙНАЯ - Меню</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <span class="line"></span>
+    <span class="text">ЧАЙНАЯ</span>
+    <span class="line"></span>
+  </div>
+  <div class="discount-ribbon">СКИДКА 10% при заказе через меню</div>
+  <nav class="category-nav">
+    <ul>
+      <li data-category="chebureki" class="active">Чебуреки</li>
+      <li data-category="pirozhki">Пирожки</li>
+      <li data-category="vypechka">Выпечка</li>
+      <li data-category="napitki">Напитки</li>
+      <li data-category="soki">Соки</li>
+    </ul>
+  </nav>
+</header>
+
+<main id="menu">
+
+  <!-- Чебуреки -->
+  <section class="category" id="chebureki">
+    <h2>Чебуреки</h2>
+    <div class="dish-card">
+      <div class="dish-info">
+        <h3>Чебуреки</h3>
+        <p class="description">Сочные и хрустящие</p>
+        <div class="multi-price">
+          <div class="variant"><span class="type">С бараниной</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С говядиной</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С курицей</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С картошкой</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С зеленью</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С сыром</span><span class="price">99 999</span></div>
+        </div>
+      </div>
+      <div class="dish-photo">
+        <img src="images/cheburek.jpg" alt="Чебуреки">
+      </div>
+    </div>
+  </section>
+
+  <!-- Пирожки -->
+  <section class="category" id="pirozhki">
+    <h2>Пирожки</h2>
+    <!-- Обжаренные в масле -->
+    <div class="dish-card">
+      <div class="dish-info">
+        <h3>Обжаренные в масле</h3>
+        <p class="description">3-4 вида</p>
+        <div class="multi-price">
+          <div class="variant"><span class="type">С капустой</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С мясом</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С картошкой</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С яблоком</span><span class="price">99 999</span></div>
+        </div>
+      </div>
+      <div class="dish-photo">
+        <img src="images/pirozhki.jpg" alt="Пирожки">
+      </div>
+    </div>
+    <!-- Из духовки -->
+    <div class="dish-card">
+      <div class="dish-info">
+        <h3>Из духовки</h3>
+        <p class="description">3-4 вида</p>
+        <div class="multi-price">
+          <div class="variant"><span class="type">С капустой</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С мясом</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С картошкой</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С яблоком</span><span class="price">99 999</span></div>
+        </div>
+      </div>
+      <div class="dish-photo">
+        <img src="images/pirozhki.jpg" alt="Пирожки духовка">
+      </div>
+    </div>
+  </section>
+
+  <!-- Выпечка -->
+  <section class="category" id="vypechka">
+    <h2>Выпечка</h2>
+    <div class="dish-card">
+      <div class="dish-info"><h3>Будочка без начинки</h3><div class="multi-price"><div class="variant"><span class="type">Стандарт</span><span class="price">99 999</span></div></div></div>
+      <div class="dish-photo"><img src="images/vypechka.jpg" alt="Будочка"></div>
+    </div>
+    <div class="dish-card">
+      <div class="dish-info"><h3>Булочка с маком</h3><div class="multi-price"><div class="variant"><span class="type">Стандарт</span><span class="price">99 999</span></div></div></div>
+      <div class="dish-photo"><img src="images/vypechka.jpg" alt="Булочка с маком"></div>
+    </div>
+    <div class="dish-card">
+      <div class="dish-info"><h3>Булочка с повидлом</h3><div class="multi-price"><div class="variant"><span class="type">Стандарт</span><span class="price">99 999</span></div></div></div>
+      <div class="dish-photo"><img src="images/vypechka.jpg" alt="Булочка с повидлом"></div>
+    </div>
+    <div class="dish-card">
+      <div class="dish-info"><h3>Булочка с корицей</h3><div class="multi-price"><div class="variant"><span class="type">Стандарт</span><span class="price">99 999</span></div></div></div>
+      <div class="dish-photo"><img src="images/vypechka.jpg" alt="Булочка с корицей"></div>
+    </div>
+  </section>
+
+  <!-- Напитки -->
+  <section class="category" id="napitki">
+    <h2>Напитки</h2>
+    <!-- Чай зеленый -->
+    <div class="dish-card">
+      <div class="dish-info">
+        <h3>Чай зеленый</h3>
+        <div class="multi-price">
+          <div class="variant"><span class="type">С жасмином</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С мятой</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С лимоном</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">Просто</span><span class="price">99 999</span></div>
+        </div>
+      </div>
+      <div class="dish-photo"><img src="images/tea_green.jpg" alt="Чай зеленый"></div>
+    </div>
+    <!-- Чай черный -->
+    <div class="dish-card">
+      <div class="dish-info">
+        <h3>Чай черный</h3>
+        <div class="multi-price">
+          <div class="variant"><span class="type">С сахаром</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С лимоном</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С бергамотом</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С имбирем</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С горными травами</span><span class="price">99 999</span></div>
+        </div>
+      </div>
+      <div class="dish-photo"><img src="images/tea_black.jpg" alt="Чай черный"></div>
+    </div>
+    <!-- Вода -->
+    <div class="dish-card">
+      <div class="dish-info">
+        <h3>Вода минеральная</h3>
+        <div class="multi-price">
+          <div class="variant"><span class="type">С газом 0,5л</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">С газом 1л</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">Без газа 0,5л</span><span class="price">99 999</span></div>
+          <div class="variant"><span class="type">Без газа 1л</span><span class="price">99 999</span></div>
+        </div>
+      </div>
+      <div class="dish-photo"><img src="images/water.jpg" alt="Вода"></div>
+    </div>
+  </section>
+
+  <!-- Соки -->
+  <section class="category" id="soki">
+    <h2>Соки</h2>
+    <div class="dish-card">
+      <div class="dish-info"><h3>Яблочный</h3><div class="multi-price"><div class="variant"><span class="type">Стандарт</span><span class="price">99 999</span></div></div></div>
+      <div class="dish-photo"><img src="images/juice.jpg" alt="Яблочный сок"></div>
+    </div>
+    <div class="dish-card">
+      <div class="dish-info"><h3>Томатный</h3><div class="multi-price"><div class="variant"><span class="type">Стандарт</span><span class="price">99 999</span></div></div></div>
+      <div class="dish-photo"><img src="images/juice.jpg" alt="Томатный сок"></div>
+    </div>
+    <div class="dish-card">
+      <div class="dish-info"><h3>Мультифрукт</h3><div class="multi-price"><div class="variant"><span class="type">Стандарт</span><span class="price">99 999</span></div></div></div>
+      <div class="dish-photo"><img src="images/juice.jpg" alt="Мультифрукт"></div>
+    </div>
+    <div class="dish-card">
+      <div class="dish-info"><h3>Апельсиновый</h3><div class="multi-price"><div class="variant"><span class="type">Стандарт</span><span class="price">99 999</span></div></div></div>
+      <div class="dish-photo"><img src="images/juice.jpg" alt="Апельсиновый"></div>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

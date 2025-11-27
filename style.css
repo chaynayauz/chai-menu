@@ -1,0 +1,149 @@
+/* Общие стили */
+body {
+  margin: 0;
+  font-family: 'Cera Pro', sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logo .line {
+  flex: 1;
+  height: 1px;
+  background: #000;
+  margin: 0 10px;
+}
+
+.logo .text {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.discount-ribbon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #f44336;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  transform: rotate(15deg);
+  z-index: 20;
+}
+
+.category-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-nav li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.category-nav li.active {
+  color: #007BFF;
+  font-weight: bold;
+}
+
+/* Меню */
+main {
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 50px;
+}
+
+.category h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.dish-card {
+  display: flex;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.dish-info {
+  flex: 1;
+}
+
+.dish-info h3 {
+  font-family: 'New York Medium', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.dish-info .description {
+  font-family: 'New York Medium', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.multi-price {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.multi-price .variant {
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.multi-price .type {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.multi-price .price {
+  font-family: sans-serif;
+  color: #007BFF;
+  font-weight: bold;
+  display: block;
+}
+
+/* Фото блюда */
+.dish-photo {
+  margin-left: 20px;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.dish-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
